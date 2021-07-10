@@ -1,0 +1,24 @@
+ul{
+    list-style:none;
+    display: flex;
+}
+nav li a{
+    text-decoration: none;
+    color:chocolate;
+}
+nav li{
+    margin-right: 5px;
+}
+nav li:hover{
+    background-color: cyan;
+    
+}
+nav > ul > li:hover >ul{
+    display: block;
+}
+
+.dropdown{
+    display: none;
+}
+
+ 
